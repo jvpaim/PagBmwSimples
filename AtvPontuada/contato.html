@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stayle.css">
+    <script src="js/script.js"></script>
+    <title>Loja Apple</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html"><img src="img/Apple-Logo.png" alt="Logo da Apple" class="logo"></a>
+        <p id="comprimento"> </p>
+    </div>
+
+    <div class="titulo">
+        <h1>Iphone</h1>
+    </div>
+
+    <div class="lista">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quemSomos.html">Quem somos</a></li>
+            <li><a href="contato.html">Contatos</a></li>
+        </ul>
+    </div>
+
+    <h1>Formulario</h1>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Formulario de contato</legend>
+            <fieldset>
+                <legend>Usuario</legend>
+                <table>
+                    <tr>
+                        <td><label for="name">Nome:</label></td>
+                        <td><input type="text" id="name" placeholder="Digite seu nome completo"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail:</label></td>
+                        <td><input type="email" id="email" placeholder="Digite seu email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="senha">Senha:</label></td>
+                        <td><input type="password" id="senha" placeholder="Digite sua senha"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telefone">Telefone:</label></td>
+                        <td><input type="tel" maxlength="11" id="telefone" placeholder="Somente numeros"></td>
+                    </tr>
+                </table>
+
+            </fieldset>
+            
+            <input type="button" value="Enviar" onclick="formulario()">
+            
+        </fieldset>
+
+    </form>
+    </div>
+
+
+
+    <div class="rodape">
+
+        <p>© 2023 Apple. João Victor ( ; .</p>
+
+        <ul>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="quemSomos.html">Quem somos</a></li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
